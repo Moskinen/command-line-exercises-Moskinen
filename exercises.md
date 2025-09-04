@@ -3,44 +3,64 @@ IMPORTANT: Do ALL exercises inside ~/cli_sandbox to avoid changing important fil
 2) cd ~/cli_sandbox
 
 1: Create a file called "evaluate.txt".
+touch evaluate.txt
 
 2: Output hidden files.
+ls -a
 
 3: Output who the active user is.
+whoami
 
 4: Output hidden files.
+ls -a
 
 5: Create a file "bay.txt" containing: "needle banish needle stock needle". Then output the sorted lines.
+echo "needle banish needle stock needle" > bay.txt
 
 6: Use: echo "evaluate recommend experienced pen advice" > "advice.txt" to create or overwrite "advice.txt".
+echo "evaluate recommend experienced ped advice" > advice.txt
 
 7: Use: echo "cater terminal ethics cousin advantage" > "hill.txt" to create or overwrite "hill.txt".
+echo "cater terminal ethics cousin advantage" > hill.txt
 
 8: Output what's in the directory.
+ls
 
 9: Create a file "pray.txt" containing: "sister medal sister experienced sister". Then output the unique lines.
+echo "sister medal sister experienced sister" > pray.txt
 
 10: Create a file "medal.txt" containing: "recommend advice nerve excuse medal". Then search recursively for "medal".
+echo "recommend advice nerve excuse medal" > medal.txt
 
 11: Output the full path you are on.
+pwd
 
 12: Output what's in the directory.
+ls
 
 13: Delete the last folder you created.
+rmdir <sidste folder>
 
 14: Create a file called "degree.txt" and immediately delete it.
+touch degree.txt rm degree.txt
 
 15: Create a file called "surprise.txt".
+touch surprise.txt
 
 16: Output the full path you are on.
+pwd
 
 17: Delete the last file you created.
+rm <sidste fil>
 
 18: Move one level up (stay inside "cli_sandbox").
+cd ..
 
 19: Move two folders up (but never leave "cli_sandbox").
+cd ../..
 
 20: Output hidden files.
+ls -a
 
 21: Create a file called "needle.txt" and immediately delete it.
 
