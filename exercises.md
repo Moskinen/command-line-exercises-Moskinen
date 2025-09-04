@@ -63,32 +63,50 @@ cd ../..
 ls -a
 
 21: Create a file called "needle.txt" and immediately delete it.
+touch needle.txt rm needle.txt
 
 22: Delete the last folder you created.
+rmdir <sidste mappe>
 
 23: Move one level up (stay inside "cli_sandbox").
+cd ..
 
 24: Use: echo "advice architecture rain surprise sister" > "discover.txt" to create or overwrite "discover.txt".
+echo "advice architecture rain surprise sister" > discover.txt
 
 25: Output the full path you are on.
+pwd
 
 26: Create a file called "honor.txt" containing these words (one per line): "relative rider relative discover relative". Then count the lines.
+echo "relative" > honor.txt
+echo "rider" >> honor.txt
+echo "relative" >> honor.txt
+echo "discover" >> honor.txt
+echo "relative" >> honor.txt
 
 27: Create a file called "honor.txt" and immediately delete it.
+touch honor.txt rm honor.txt
 
 28: If already inside "cli_sandbox", create a directory "shallow" and move into the directory.
+mkdir shallow cd shallow
 
 29: Create a file "appreciate.txt" containing: "shallow pray shallow nerve shallow". Then output the unique lines.
+echo "shallow pray shallow nerve shallow" > appreciate.txt sort appreciate.txt 
 
 30: Delete the last file you created.
+rm appreciate.txt
 
 31: Delete the last file you created.
+rm <sidste fil>
 
 32: Move one level up (stay inside "cli_sandbox").
+cd .. 
 
 33: If already inside "cli_sandbox", create a directory "identity" and move into the directory.
+mkdir cli_sandbox cd cli_sandbox
 
 34: Create a file "difficulty.txt" containing: "plane rider difficulty needle shallow". Then search recursively for "difficulty".
+
 
 35: Create a file called "difficulty.txt" and immediately delete it.
 
