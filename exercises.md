@@ -106,49 +106,70 @@ cd ..
 mkdir cli_sandbox cd cli_sandbox
 
 34: Create a file "difficulty.txt" containing: "plane rider difficulty needle shallow". Then search recursively for "difficulty".
-
+echo "plane rider difficulty needle shallow" > difficulty.txt
 
 35: Create a file called "difficulty.txt" and immediately delete it.
+touch difficulty.txt rm difficulty.txt
 
 36: Output the full path you are on.
+pwd
 
 37: Create two directories "cousin" and "sister" and move into "sister".
+mkdir cousin mkdir sister cd sister
 
 38: Output hidden files.
+ls -A
 
 39: Output the full path you are on.
+pwd
 
 40: Output the full path you are on.
+pwd
 
 41: Output the content of any file in the directory.
+cat <file in directory>
 
 42: Delete the last file you created.
+rm <last file created>
 
 43: Create a directory "cousin" and then delete it.
+mkdir cousin rmdir cousin
 
 44: Create a file called "on.txt" and immediately delete it.
+touch on.txt rm on.txt
 
 45: Move two folders up (but never leave "cli_sandbox").
+cd ../..
 
 46: Create a file called "support.txt".
+touch support.txt
 
 47: Create a file "recommend.txt" containing: "hill interference speculate recommend on". Then search recursively for "recommend".
+echo "hill interference speculate recommend on" > recommend.txt grep -r "recommend"
 
 48: Move one level up (stay inside "cli_sandbox").
+cd ..
 
 49: Create a folder named "cli_sandbox".
+mkdir cli_sandbox
 
 50: Create a file "relative.txt" containing: "cater relative hill needle proportion". Then search recursively for "relative".
+echo "cater relative hill needle proportion" > relative.txt grep -r "relative"
 
 51: Output the content of any file in the directory.
+cat <file in directory>
 
 52: Output the sizes of the files in the directory.
+ls -l
 
 53: Change directory to "cli_sandbox".
+cd cli_sandbox
 
 54: Open a file in the terminal and see the content.
+cd file cat
 
 55: Create a folder named "cli_sandbox".
+mkdir cli_sandbox
 
 56: Move two folders up (but never leave "cli_sandbox").
 
